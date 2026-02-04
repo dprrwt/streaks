@@ -47,7 +47,7 @@ export function HabitCard({ habit, onToggle, onDelete }: Props) {
           {dots.map((done, i) => (
             <div
               key={i}
-              className="w-2.5 h-2.5 rounded-full transition-colors"
+              className="w-2 h-2 rounded-full transition-colors"
               style={{
                 backgroundColor: done ? 'var(--accent)' : 'var(--border)',
               }}
